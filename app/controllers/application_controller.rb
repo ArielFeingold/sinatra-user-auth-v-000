@@ -24,12 +24,11 @@ class ApplicationController < Sinatra::Base
 
   get '/sessions/login' do
     erb :'sessions/login'
-        binding.pry
   end
 
   post '/sessions' do
     @user = User.find(session[:id])
-
+    binding.pry
     redirect '/users/home'
   end
 
