@@ -28,9 +28,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/sessions' do
-    puts params
-    @user = User.find_by(email: params["email"], password: params["password"])
-    session[:id] = @user.id
+puts params
   end
 
   get '/sessions/logout' do
