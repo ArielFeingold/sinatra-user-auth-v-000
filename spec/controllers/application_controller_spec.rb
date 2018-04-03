@@ -55,7 +55,6 @@ describe "ApplicationController" do
       fill_in(:email, :with => "bitsy@hogwarts.edu")
       fill_in(:password, :with => "luminosity")
       click_button "Log In"
-            binding.pry
       visit '/users/home'
       expect(page.status_code).to eq(200)
     end
