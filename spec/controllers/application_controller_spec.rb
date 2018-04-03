@@ -1,22 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @ArielFeingold
-Sign out
-0
-0 778 ArielFeingold/sinatra-user-auth-v-000
-forked from learn-co-students/sinatra-user-auth-v-000
- Code  Pull requests 0  Projects 0  Wiki  Insights  Settings
-sinatra-user-auth-v-000/spec/controllers/application_controller_spec.rb
-b3aa3bd  on Jul 29, 2016
-@gj gj matched homepage, sign-up, & login to their spelling in README
-@vicfriedman @SophieDeBenedetto @gj
-
-73 lines (56 sloc)  1.8 KB
 require 'spec_helper'
 
 describe "ApplicationController" do
@@ -89,16 +70,3 @@ describe "ApplicationController" do
   end
 
 end
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
-About
-Press h to open a hovercard with more details.
